@@ -1,0 +1,27 @@
+{
+  "name": "chaideploy",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droidhazard/chaideploy.git"
+  },
+  "keywords": [
+    "node",
+    "chai",
+    "backend"
+  ],
+  "author": "zohaib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/droidhazard/chaideploy/issues"
+  },
+  "homepage": "https://github.com/droidhazard/chaideploy#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
