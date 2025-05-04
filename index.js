@@ -4,6 +4,10 @@ require('dotenv').config()
 
 const port = process.env.PORT
 
+const githubData = {
+  "message": "I don't have enough github data"
+}
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
@@ -18,6 +22,10 @@ app.get('/login', (req, res)=> {
 
 app.get('/youtube', (req, res) => {
   res.send('<h2>Chai aur Code</h2>')
+})
+
+app.get('/github', (req, res) => {
+  res.json(githubData)
 })
 
 app.listen(port, () => {
